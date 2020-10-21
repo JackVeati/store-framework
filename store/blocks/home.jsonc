@@ -13,8 +13,8 @@
       //********** slider **********//
       "slider-layout#home",
       //********** responsive **********//
-      "responsive-layout.desktop",
-      "responsive-layout.mobile"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
 
