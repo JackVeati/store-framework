@@ -9,7 +9,9 @@
       //********** flexlayout **********//
       "flex-layout.row",
       //********** shelf **********//
-      "shelf"
+      "shelf",
+      //********** slider **********//
+      "slider-layout#home"
     ]
   },
   //********** helloworld **********//
