@@ -13,10 +13,11 @@
       //********** slider **********//
       "slider-layout#home",
       //********** responsive **********//
-      "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile"
+      "responsive-layout.desktop",
+      "responsive-layout.mobile"
     ]
   },
+
   //********** helloworld **********//
   "rich-text": {
     "props": {
@@ -92,7 +93,8 @@
     }
   },
 
-  "responsive-layout.desktop#desktop": {
+  //********** responsive **********//
+  "responsive-layout.desktop": {
     "children": [
       "rich-text#desktop",
       "image#desktop"
@@ -117,7 +119,7 @@
     }
   },
 
-  "responsive-layout.mobile#mobile": {
+  "responsive-layout.mobile": {
     "children": [
       "rich-text#mobile",
       "image#mobile"
@@ -126,7 +128,7 @@
 
   "rich-text#mobile": {
     "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "text": "### Your Coffee, Your Way \n #### New Coffee Makers Collection",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
