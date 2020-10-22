@@ -7,7 +7,9 @@
     },
 
     "image#landingbanner": {
-        "props": {}
+        "props": {
+            "minWidth": "100%"
+        }
     },
 
     "search-result-layout.customQuery": {
